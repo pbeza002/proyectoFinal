@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+
+    tools:context=".login">
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="70sp"
+      android:layout_height="48sp"
+      android:layout_marginStart="27dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.668"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.961"
+      android:background="@android:color/transparent"/>
+
+  <Button
+      android:id="@+id/login_boton"
+      android:layout_width="155dp"
+      android:layout_height="48dp"
+      android:layout_gravity="start"
+      android:layout_marginBottom="88dp"
+      android:background="@drawable/boton_naranje"
+      android:enabled="false"
+      android:hapticFeedbackEnabled="false"
+      android:text="Iniciar Sesión"
+      android:textColor="#000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <EditText
+      android:id="@+id/contrasena"
+      android:layout_width="200dp"
+      android:layout_height="48dp"
+      android:background="@drawable/boton_login"
+      android:ems="10"
+      android:hint="*******"
+      android:inputType="textPassword"
+      android:textAlignment="center"
+      android:textColor="#3D151515"
+      android:textColorHint="#989797"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.838"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.629" />
+
+  <EditText
+      android:id="@+id/email"
+      android:layout_width="200dp"
+      android:layout_height="48dp"
+      android:background="@drawable/boton_login"
+      android:ems="10"
+      android:hint="example@gmail.com"
+      android:inputType="textEmailAddress"
+      android:textAlignment="center"
+      android:textColor="#3E151515"
+      android:textColorHint="#989797"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.834"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.54" />
+
+  <TextView
+      android:id="@+id/login_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="LOG IN"
+      android:textColor="#000000"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.372" />
+  <CheckBox
+      android:id="@+id/sesion_iniciada"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:buttonTint="@color/black"
+      android:text="Mantener sesión iniciada"
+      android:textColor="@color/black"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.782" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:shadowColor="@color/black"
+      android:text="No tienes tu cuenta?"
+      android:textColor="@color/black"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.313"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.963" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="116dp"
+      android:layout_height="46dp"
+      android:text="Usuario"
+      android:textAlignment="center"
+      android:textColor="#F0000000"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.088"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.554" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="123dp"
+      android:layout_height="45dp"
+      android:text="Contraseña"
+      android:textAlignment="center"
+      android:textColor="#F0000000"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.09"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.65" />
+
+  <TextView
+      android:id="@+id/contrasenaolvidada"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:clickable="true"
+      android:text="He olvidado mi contraseña"
+      android:textColor="#0E74E5"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.815"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.713" />
+
+  <TextView
+      android:id="@+id/registrate_text"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:clickable="true"
+      android:text="Regístrate"
+      android:textColor="#0E74E5"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.7"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.961" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

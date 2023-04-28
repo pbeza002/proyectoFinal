@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".protectora">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+        android:layout_height="495dp"
+        android:layout_marginTop="731dp"
+        android:layout_marginEnd="404dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98">
+
+        <TextView
+            android:id="@+id/centros_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CENTROS DE ADOPCIÓN"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="21dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="375dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="215dp"
+                    android:layout_height="48dp"
+                    android:text="Correo Electrónico"
+                    android:textAlignment="textEnd"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="215dp"
+                    android:layout_height="48dp"
+                    android:text="Nombre del Centro"
+                    android:textAlignment="textEnd"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="215dp"
+                    android:layout_height="48dp"
+                    android:text="Contraseña"
+                    android:textAlignment="textEnd"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="215dp"
+                    android:layout_height="48dp"
+                    android:text="Confirmar Contraseña"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Capacidad del Centro"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Ubicación del Centro"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="375dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress4"
+                    android:layout_width="155dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/boton_login"
+                    android:ems="10"
+                    android:hint="example@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#B0BEC5" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="155dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/boton_login"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/contrasena3"
+                    android:layout_width="155dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/boton_login"
+                    android:ems="10"
+                    android:hint="*******"
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textColor="#3D151515"
+                    android:textColorHint="#B0BEC5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.838"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.629" />
+
+                <EditText
+                    android:id="@+id/contrasena4"
+                    android:layout_width="155dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/boton_login"
+                    android:ems="10"
+                    android:hint="*******"
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textColor="#3D151515"
+                    android:textColorHint="#B0BEC5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.838"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.629" />
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="155dp"
+                    android:layout_height="48dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ajustes_linear"
+            app:layout_constraintVertical_bias="0.89">
+
+            <LinearLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <CheckBox
+                android:id="@+id/terminos2_check"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:buttonTint="@color/black"
+                android:text="Acepto los"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/condiciones_text"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:text="términos y condiciones"
+                android:textColor="#0E74E5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

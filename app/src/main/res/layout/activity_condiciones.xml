@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/fondo"
+    tools:context=".condiciones">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="268dp"
+        android:layout_height="452dp"
+        android:background="@drawable/marco_negro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="5dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:text="Los términos y condiciones que debe tener una aplicación sobre la adopción de perros y gatos pueden variar según el país o región en el que se encuentre la aplicación, así como según las políticas específicas de la organización que maneje la adopción de mascotas. A continuación, se presentan algunos términos y condiciones comunes que se pueden encontrar en estas aplicaciones: \n Requisitos de adopción: La aplicación debe proporcionar información clara y detallada sobre los requisitos para adoptar una mascota. Esto puede incluir la edad mínima del adoptante, la vivienda y el espacio disponible para la mascota, el estilo de vida del adoptante y cualquier otra información relevante. \n Proceso de adopción: La aplicación debe proporcionar información sobre el proceso de adopción, incluyendo los pasos necesarios para completar la solicitud de adopción, los tiempos de espera estimados y cualquier otro requisito previo a la adopción.\n  Política de adopción: La aplicación debe tener una política de adopción clara y transparente, que incluya la verificación de antecedentes del adoptante, la revisión de los registros médicos de la mascota, la política de reembolso y cualquier otra política relevante. \n Responsabilidad del adoptante: La aplicación debe informar a los adoptantes de sus responsabilidades como dueños de mascotas, incluyendo la necesidad de proporcionar un cuidado adecuado, alimentación, atención médica y entrenamiento. Además, la aplicación debe informar sobre las consecuencias legales y financieras de la falta de cumplimiento de estas responsabilidades. \n Acuerdo de adopción: La aplicación debe requerir que los adoptantes firmen un acuerdo de adopción que incluya términos y condiciones específicos, como las obligaciones del adoptante, la política de devolución y cualquier otra disposición relevante. \n  Política de privacidad: La aplicación debe tener una política de privacidad clara y detallada que explique cómo se manejarán los datos personales de los adoptantes. \n Política de derechos de autor: Si la aplicación contiene contenido protegido por derechos de autor, como fotografías de mascotas, debe tener una política clara sobre el uso de este contenido y las restricciones aplicables. \n Responsabilidad de la aplicación: La aplicación debe limitar su responsabilidad en caso de cualquier problema relacionado con la adopción de mascotas, incluyendo cualquier lesión o daño causado por la mascota adoptada. La aplicación también debe informar a los usuarios de cualquier limitación de responsabilidad de la organización que maneja la adopción de mascotas."
+                android:textAlignment="textStart"
+                android:textColor="#3E151515"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
