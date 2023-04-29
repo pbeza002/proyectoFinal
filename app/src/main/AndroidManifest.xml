@@ -29,7 +29,8 @@
         <activity
             android:name=".signUp"
             android:exported="false"
-            android:theme="@style/AppTheme.ActionBar.Transparent" />
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:usesCleartextTraffic="true"/>
         <activity
             android:name=".login"
             android:exported="false"
